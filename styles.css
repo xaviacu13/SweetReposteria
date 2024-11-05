@@ -1,0 +1,61 @@
+.nav-color{
+    background-color: #43e8bf;
+    background-image: linear-gradient(315deg, #43e8bf 0%, #000000 74%);
+    margin-top: -8px;
+    margin-bottom: -30px;
+    width: 100%; 
+}
+.color {color: white}
+main{ 
+    margin-top: 20px;
+    background-color: black;
+    margin-bottom: -20px;
+}
+.container-all{margin: 20px;}
+footer{
+    background-color: #43e8bf;
+    padding: 10px;
+    background-image: linear-gradient(315deg, #43e8bf 0%, #000000 74%);
+}
+.contactos,i{ color: #000000;}
+.icons i:hover{
+    background-color: #000000;
+    color: #43e8bf ;
+    border-radius: 4px;
+    transition: all 0.8s;
+}
+.card a{
+    background-color: #43e8bf;
+    border: #43e8bf solid;
+    justify-content: center;
+}
+.contacts-text{color: white;}
+
+.text{color: #000000;}
+
+.nav2{justify-content: end;}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
+.categorias {
+    display: flex;
+    align-items: center;
+  }
+.contactos-drop {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+}
+.body {
+    background-color: #f1faf8;
+}
