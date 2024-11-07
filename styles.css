@@ -59,3 +59,14 @@ footer{
 .body {
     background-color: #f1faf8;
 }
+.portada-images{
+    height: 550px;
+}
+.text-title{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+@media only screen and (max-width: 500px) {
+    .portada-images {
+        height: 300px;
+    }
+}
